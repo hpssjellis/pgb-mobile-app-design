@@ -23,7 +23,7 @@ set -e
   
   tmux send-keys -t mySession  "cd ~/workspace" C-m
   
-  tmux send-keys -t mySession  "cd j06-kids-can-code-nitrous-pgb-helloworld" C-m
+  tmux send-keys -t mySession  "cd pgb-mobile-app-design" C-m
   
   tmux send-keys -t mySession  "node nitrous.js" C-m
   
