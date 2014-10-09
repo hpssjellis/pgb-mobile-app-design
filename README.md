@@ -16,7 +16,7 @@ Installation steps:
 
 1. node.js
 
-1. give your box a simple name
+1. give your box a simple name such as a few letters of your first name
 
 1. https://github.com/hpssjellis/pgb-mobile-app-design.git
 
