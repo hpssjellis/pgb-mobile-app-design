@@ -18,7 +18,7 @@ Installation steps:
 
 1. give your box a simple name such as a few letters of your first name
 
-1. https://github.com/hpssjellis/pgb-mobile-app-design.git
+1. enter my github url    https://github.com/hpssjellis/pgb-mobile-app-design.git
 
 1. click IDE
 
