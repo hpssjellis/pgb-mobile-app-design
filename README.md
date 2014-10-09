@@ -8,7 +8,7 @@ Using the Phonegap Developer App and NItrous.io this should eventually be a comp
 
 Installation steps:
 
-1. login to http://nirous.io
+1. login to http://nitrous.io
 
 1. open dashboard
 
