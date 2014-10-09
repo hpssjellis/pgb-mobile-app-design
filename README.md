@@ -7,6 +7,25 @@ Using the Phonegap Developer App and NItrous.io this should eventually be a comp
 
 
 Installation steps:
+
+1. login to http://nirous.io
+
+1. open dashboard
+
+1. new box
+
+1. node.js
+
+1. 
+
+
+
+
+
+
+
+
+
 1.  npm install connect
   
 
