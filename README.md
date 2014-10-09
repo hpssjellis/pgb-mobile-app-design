@@ -16,15 +16,13 @@ Installation steps:
 
 1. node.js
 
-1. 
+1. give your box a simple name
 
+1. https://github.com/hpssjellis/pgb-mobile-app-design.git
 
+1. click IDE
 
-
-
-
-
-
+1. In the terminal at the bottom of the screen type
 
 1.  npm install connect
   
