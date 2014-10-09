@@ -20,6 +20,9 @@ Installation steps:
 
 1. enter my github url    https://github.com/hpssjellis/pgb-mobile-app-design.git
 
+1. Click Create Box
+
+
 1. click IDE
 
 1. In the terminal at the bottom of the screen type
