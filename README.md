@@ -4,6 +4,8 @@ pgb-mobile-app-design
 Using the Phonegap Developer App and NItrous.io this should eventually be a complete Mobile App Design course for High School Students
 
 
+Note: Don't use IE (Internet Explorer as the web based drag and drop is not working as of Oct, 2014)
+
 
 
 Installation steps:
