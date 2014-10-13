@@ -10,6 +10,8 @@ Note: Don't use IE (Internet Explorer as the web based drag and drop is not work
 
 Installation steps:
 
+#Start Box
+
 1. login to http://nitrous.io
 
 
@@ -34,6 +36,8 @@ Installation steps:
 1. click IDE
 
 
+#Setup Box (once only)
+
 1. (In the terminal at the bottom of the screen type)
 
 
@@ -52,6 +56,9 @@ Installation steps:
 1.  (note: learn a few linux commands such as cd ..     cd folder     ls -la   ./runbash.sh)
 
 
+#Daily use
+
+
 1.  restart your box and check the preview menu item
   
 
@@ -59,8 +66,5 @@ Installation steps:
 
 
 1.  load the same URL as the preview shows
-
-
-
 
 
