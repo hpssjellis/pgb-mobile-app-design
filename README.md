@@ -47,22 +47,81 @@ Installation steps:
 1.  npm install connect-phonegap
   
 
+1. In the menu area above the terminal click "show hidden" to show the hidden .filenames
+
+
 1.  (using the package manager on the left open workspace and open pgb-mobile-app-design and move .nitrousboxrc file to the root folder, the upper-most folder)
  
 
 1.  chmod +x .nitrousboxrc
  
 
+1. click "hide hidden"
+
+
 1.  (note: learn a few linux commands such as cd ..     cd folder     ls -la   ./runbash.sh)
+
+
+1. click box menu item --> restart box to activate .nitrousboxrc on startup. 
+ 
+
+1. Click Preview on the menu item (should see your web page. Copy this URL)
+
+
+1. Install the Phonegap Developer App on your mobile device
+
+
+1. Type the URL and see the webpage on your device.
 
 
 #Daily use
 
 
-1.  restart your box and check the preview menu item
+1.  login to nitrous, start your box
+
+
+1.  Start the Phonegap Developer App and view your webpages as Mobile Apps. (Only obvious when using plugins like the camera, accelerometer, GPS etc)
   
 
-1.  install the Phonegap Developer App on your device
+
+
+#Tips and Tricks
+
+1. Do not us IE!
+
+1. When using the Preview button it is a good idea in chrome to load an incognito window as Nitrous will be more stable if you accidentally load a plugin
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Use this github site at your own risk!
+
+
+
+
+
+
+
+
+
+
+
+  
+
+1.  Loadd the Phonegap Developer App on your mobile device
 
 
 1.  load the same URL as the preview shows
