@@ -7,6 +7,8 @@ You should know a bit of linux commands such as:
 
 pwd  (shows where you are)
 
+tab  (auto-completes, type the first few letters, then tab, super usefull!)
+
 cd .. (moves up a directory)
 
 cd folderName (moves into the directory)
