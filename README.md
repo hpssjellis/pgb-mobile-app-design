@@ -108,7 +108,7 @@ Installation steps:
 
 
 ####Use this github site at your own risk!
-
+Note: This site will be changing as new information is found.
 
 
 
