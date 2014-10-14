@@ -59,7 +59,7 @@ Installation steps:
 1. click "hide hidden"
 
 
-1.  (note: learn a few linux commands such as cd ..     cd folder     ls -la   ./runbash.sh)
+1.  (note: learn a few linux commands such as: pwd   cd ..     cd folder     ls -la     ./runbash.sh     tab    up arrow)
 
 
 1. click box menu item --> restart box to activate .nitrousboxrc on startup. 
@@ -80,7 +80,7 @@ Installation steps:
 1.  login to nitrous, start your box
 
 
-1.  Start the Phonegap Developer App and view your webpages as Mobile Apps. (Only obvious when using plugins like the camera, accelerometer, GPS etc)
+1.  Start the Phonegap Developer App and view your webpages as Mobile Apps. (Note: Apps are only different from web pages when using plugins like the camera, accelerometer, GPS etc)
   
 
 
@@ -107,7 +107,7 @@ Installation steps:
 
 
 
-#Use this github site at your own risk!
+####Use this github site at your own risk!
 
 
 
@@ -118,12 +118,5 @@ Installation steps:
 
 
 
-
-  
-
-1.  Loadd the Phonegap Developer App on your mobile device
-
-
-1.  load the same URL as the preview shows
 
 
