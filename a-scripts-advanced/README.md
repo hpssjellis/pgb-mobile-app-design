@@ -9,6 +9,8 @@ pwd  (shows where you are)
 
 tab  (auto-completes, type the first few letters, then tab, super usefull!)
 
+up arrow  (shows other commands you have tried, also very usefull )
+
 cd .. (moves up a directory)
 
 cd folderName (moves into the directory)
