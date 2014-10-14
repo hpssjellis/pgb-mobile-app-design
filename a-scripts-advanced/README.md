@@ -7,9 +7,9 @@ You should know a bit of linux commands such as:
 
 pwd  (shows where you are)
 
-tab  (auto-completes, type the first few letters, then tab, super usefull!)
+tab  (auto-completes, type the first few letters, then tab, super useful!)
 
-up arrow  (shows other commands you have tried, also very usefull )
+up arrow  (shows other commands you have tried, also very useful )
 
 cd .. (moves up a directory)
 
