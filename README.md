@@ -92,7 +92,7 @@ Installation steps:
 1. When using the Preview button it is a good idea in chrome to load an incognito window as Nitrous will be more stable if you accidentally load a plugin
  
 
-
+1. Students with issues should be using google. Phonegap and Javascript have an enormous amount of example code on the web.
 
 
 
