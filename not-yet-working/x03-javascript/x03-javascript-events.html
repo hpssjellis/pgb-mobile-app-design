@@ -1,0 +1,46 @@
+
+
+<script>
+document.myx = 40
+</script>
+
+
+
+<body onkeyDown= "{
+  alert(String.fromCharCode(event.keyCode))
+  if(string.fromCharCode(event.keyCode)=='A'){
+      getElementById('myOut').style.left = parseInt(getElementById('myOut').style.left) + 10 + 'px'
+  }
+}">
+
+
+
+
+
+<h1 align=center> Basic Javascript by ______</h1>
+
+
+<br>
+
+<div id="myOut" style= "position:absolute;left:500;top:100;">Move me</div>
+
+<br><br>
+
+
+
+<input type=button value="up" onclick="{
+   document.all.myOut.style.top = parseInt(document.all.myOut.style.top)-20+'px' 
+}"><br>
+
+
+
+<input type=button value="left" onclick="{
+   document.all.myOut.style.left = parseInt(document.all.myOut.style.left)-20+'px'
+}">
+
+
+<b onMouseOver = "{
+   getElementById('myOut').innerHTML +=' Move me '+myLoop	
+}"> Copy me!</b> <br><br>
+
+
