@@ -12,7 +12,7 @@
 
     <gap:plugin name="org.apache.cordova.core.media" /> 
     <gap:plugin name="org.apache.cordova.camera" />
-    <gap:plugin name="com.rjfun.cordova.plugin.lowlatencyaudio"  /> 
+    <gap:plugin name="org.apache.cordova.device" />
     
 
     

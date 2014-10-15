@@ -13,7 +13,17 @@
 <h1 align=center>Plugin testing using jQuery style functions</h1>
 <font style="font-size:30px">  
 
+ 
+<input type=button value="Device Info" style="font-size:30px" onclick="{
 
+
+      alert('Device Model: '    + device.model    + '\n' +
+                            'Device Cordova: '  + device.cordova  + '\n' +
+                            'Device Platform: ' + device.platform + '\n' +
+                            'Device UUID: '     + device.uuid     + '\n' +
+                            'Device Version: '  + device.version  + '\n')
+}">
+   
 
 
 <input type=text id="mySrc" value="http://audio.ibeat.org/content/p1rj1s/p1rj1s_-_rockGuitar.mp3">
@@ -40,22 +50,6 @@
     my_media.stop();
 
 }">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
