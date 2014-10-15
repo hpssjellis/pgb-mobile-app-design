@@ -1,0 +1,48 @@
+
+<h1 align=center>Javascript Random</h1>
+
+<h3>Instructions</h3>
+Improve the following
+
+
+
+
+
+<div id="myDiv1">Results go here</div>
+
+<input type=button value="unclosed parenthesis" onclick="{
+
+   document.getElementById('myDiv1').innerHTML = 'This string has not been closed
+
+}"><br>
+
+
+
+
+<input type=button value="random" onclick="{     
+   document.getElementById('myDiv1').innerHTML=Math.round(Math.random()*10)
+}">
+
+
+
+
+<input type=button value="Random Array" onclick="{
+   var myHappy = new Array;
+   myHappy[0]='Looking Good!';
+   myHappy[1]='Have a great day!';
+
+   document.getElementById('myDiv1').innerHTML=myHappy[Math.floor(Math.random()*myHappy.length)]
+
+}">
+
+
+
+
+
+
+
+At the bottom of every page make sure you include the following button:<br>
+
+<input type=button value="Back" style="font-size:25px" onclick="{window.history.back()}">
+<br><br>
+
