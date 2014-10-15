@@ -27,4 +27,7 @@ ls -la   (shows all files and attributes including hidden files)
 These scripts should be in the correct folder when you activate them. Good idea to drag them into the main workspace folder from your repository.
 
 
+Note: 2 files in this directory (pakage.json and Procfile) are needed in the main www folder only if pushing your repository to heroku.
+
+
 
