@@ -38,5 +38,65 @@ function myClick3(){
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>Advanced functions - passing information<br>
+
+<script>
+
+function myPass(myWord){
+  document.getElementById('myDiv1').innerHTML = 'You Passed the word '+myWord
+
+}
+
+
+
+document.showWord = function(myWord) {
+     document.getElementById('myDiv1').innerHTML= 'You Passed the word '+myWord + ' jQuery style'
+}
+
+
+</script>
+
+
+
+<input type=button value="Passing info" onClick="{
+  myPass('fred')
+}"><br>
+
+
+
+<input type=button value="jQuery Passing info" onClick="{
+  document.showWord('Mary')
+}"><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 At the bottom of every page make sure you include the following button:<br>
 <input type=button value="Back" style="font-size:25px" onclick="{location='window.history.back'}"><br><br>
