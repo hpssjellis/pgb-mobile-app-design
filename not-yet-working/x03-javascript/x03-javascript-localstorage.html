@@ -10,17 +10,18 @@
    localstorage.setItem('myStoredText',document.getElementById('myText1').value
 }">   
 
-   
 
 
-<input type=text size=70 value="Write stuff here to be stored for the next time you come back to this site"><br>
+<input id="myText1" type=text size=70 value="Write stuff here to be stored for the next time you come back to this site"><br>
 
 <input type="button" value="Store Text" onClick="{
    localStorage.setItem('myStoredText', document.getElementById('myText1').value)
+   alert(document.getElementById('myText1').value + ' \nHas been stored')
+   document.getElementById('myText1').value = ''
 }">
 
 <input type="button" value="Retrieve Text" onClick="{
-   document.getElementById('myText1).value = localStorage.getItem('myStoredText')
+   document.getElementById('myText1').value = localStorage.getItem('myStoredText')
 }"> 
 
 
