@@ -29,5 +29,5 @@ These scripts should be in the correct folder when you activate them. Good idea 
 
 Note: 2 files in this directory (pakage.json and Procfile) are needed in the main www folder only if pushing your repository to heroku.
 
-
+Note: A few files have .php endings these are for working with AJAX
 
