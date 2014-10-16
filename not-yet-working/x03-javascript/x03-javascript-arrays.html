@@ -5,16 +5,16 @@ document.cards = new Array();
 
 // set the cards with random numbers
 
-for (myLoop=1; myLoop<=52; myLoop++){
+for (myLoop=1; myLoop<=3; myLoop++){
       document.cards[myLoop]= Math.floor((Math.random()*100)+1)
 }
 
 // print the random cards to the webpage
 
-for (myLoop=1; myLoop<=52; myLoop++){
+for (myLoop=1; myLoop<=3; myLoop++){
      document.write(document.cards[myLoop] +' ')
 }
-
+document.write('<br>')
 </script>
 
 

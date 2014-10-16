@@ -10,11 +10,6 @@ Improve the following
 
 <div id="myDiv1">Results go here</div>
 
-<input type=button value="unclosed parenthesis" onclick="{
-
-   document.getElementById('myDiv1').innerHTML = 'This string has not been closed
-
-}"><br>
 
 
 
@@ -30,8 +25,8 @@ Improve the following
    var myHappy = new Array;
    myHappy[0]='Looking Good!';
    myHappy[1]='Have a great day!';
-
-   document.getElementById('myDiv1').innerHTML=myHappy[Math.floor(Math.random()*myHappy.length)]
+   myRandNumber = Math.floor(Math.random()*myHappy.length)
+   alert('Your random number is '+myRandNumber)document.getElementById('myDiv1').innerHTML=myHappy[myRandNumber]
 
 }">
 

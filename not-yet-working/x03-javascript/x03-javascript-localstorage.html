@@ -1,5 +1,5 @@
 <body onload="{
-   myStorage = (ocalStorage.getItem('myStoredText')
+   myStorage = localStorage.getItem('myStoredText')
    alert(myStorage )
    if(myStorage  != null){
       document.getElementById('myText1').value = myStorage 
@@ -13,7 +13,7 @@
    
 
 
-<input type=text value="Write stuff here to be stored for the next time you come back to this site">
+<input type=text size=70 value="Write stuff here to be stored for the next time you come back to this site"><br>
 
 <input type="button" value="Store Text" onClick="{
    localStorage.setItem('myStoredText', document.getElementById('myText1').value)
