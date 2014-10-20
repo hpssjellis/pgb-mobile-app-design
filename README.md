@@ -8,7 +8,7 @@ Note: Don't use IE (Internet Explorer as the web based drag and drop is not work
 
 
 
-www.youtube example  installation video at https://www.youtube.com/watch?v=nuCaWh6_Hp8
+Youtube example  installation video at https://www.youtube.com/watch?v=nuCaWh6_Hp8
 
 
 Installation steps:
