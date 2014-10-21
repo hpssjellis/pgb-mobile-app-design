@@ -90,7 +90,7 @@ Installation steps:
 
 #Tips and Tricks
 
-1. Do not us IE!
+1. Do not use IE!
 
 1. When using the Preview button it is a good idea in chrome to load an incognito window as Nitrous will be more stable if you accidentally load a plugin
  
