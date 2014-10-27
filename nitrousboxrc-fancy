@@ -1,0 +1,78 @@
+#!/bin/bash
+
+# Note: You can also use #!/bin/sh or #!/bin/zsh as the first line.
+
+# Use .nitrousboxrc to run commands (start daemons, etc) when your box is
+# started/restarted.
+# The results of running this script will be appended to
+# /home/action/.nitrousboxrc.log .
+
+# To use this file, run the following commands in your terminal:
+#   cp ~/.nitrousboxrc.sample ~/.nitrousboxrc
+#   chmod +x ~/.nitrousboxrc
+
+# The line below is recommended so that any errors will stop the script.
+set -e
+
+# Add your commands here...
+
+#if [ ! -d "fred" ]; then
+#  echo "no fred"
+#fi
+
+
+if [ -d "/home/action/node_modules" ]; then
+  echo "yes node_modules exist"
+fi
+
+
+
+
+
+
+# Add your commands here...
+tmux new-session -d -s mySession
+# -d means do not enter into the default tmux window
+
+
+
+
+
+
+
+
+if [ ! -d "/home/action/node_modules/connect" ]; then
+  echo "running npm install connect"
+  tmux send-keys -t mySession "npm install connect" C-m
+else
+  echo "connect already installed"
+fi
+
+if [ ! -d "/home/action/node_modules/connect-phonegap" ]; then
+  echo "running npm install connect-phonegap"
+  tmux send-keys -t mySession "npm install connect-phonegap" C-m
+else
+  echo "connect-phonegap already installed"
+fi
+
+
+
+
+
+
+
+tmux send-keys -t mySession "cd ~/workspace" C-m
+tmux send-keys -t mySession "cd pgb-mobile-app-design" C-m
+tmux send-keys -t mySession "node nitrous.js" C-m
+echo ""
+echo "To enter the session type"
+echo "tmux attach -t mySession"
+echo "then ctrl-b % to make a new window pane"
+echo "tmux detach"
+echo ""
+echo "To kill the session type"
+echo "tmux kill-session -t mySession"
+echo ""
+tmux ls
+
+
