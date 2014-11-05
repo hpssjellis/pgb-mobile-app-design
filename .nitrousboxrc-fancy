@@ -16,10 +16,6 @@ set -e
 
 # Add your commands here...
 
-#if [ ! -d "fred" ]; then
-#  echo "no fred"
-#fi
-
 
 if [ -d "/home/action/node_modules" ]; then
   echo "yes node_modules exist"
